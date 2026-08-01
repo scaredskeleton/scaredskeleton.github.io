@@ -1,5 +1,5 @@
 export const featuredProjects = [
-	{
+	/*{
 		title: 'UNO™ Wild',
 		banner: '/images/uno-wild-logo.png',
 		link: 'https://play.google.com/store/apps/details?id=com.mattel.wild&hl=en',
@@ -13,7 +13,7 @@ export const featuredProjects = [
 			'"UNO™ Wild is a fast-moving mobile game where every card played helps you win coins, every spin unlocks rewards, and every other player’s growing stash of coins can be taken for yours."',
 			'My main responsibility for this project was on the mini games and live events. Our work involves developing new mini games and improving exisiting ones for keeping our users engaged. As part of the team that works on the live events, I am also involved in the backend development to allow support for our features.'
 		]
-	},
+	},*/
 	{
 		title: 'AstroNerds',
 		banner: '/images/astronerds-logo.png',
