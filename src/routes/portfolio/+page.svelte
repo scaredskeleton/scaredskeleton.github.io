@@ -196,5 +196,89 @@
 
 	.header-bold {
 		font-size: xx-large;
+		margin-bottom: 0px;
+	}
+
+	@media (max-width: 768px) {
+		.common-text {
+			font-size: large;
+		}
+
+		.content {
+			width: 100%;
+			padding: 0 20px;
+		}
+
+		#featured-projects {
+			margin-top: 120px;
+		}
+
+		#featured-projects .project-container-right,
+		#featured-projects .project-container-left {
+			margin-bottom: 60px;
+		}
+
+		#featured-projects .project-container-right .description {
+			float: none;
+		}
+
+		.banner {
+			width: 100%;
+			max-width: 400px;
+			display: block;
+			margin: 0 auto 20px;
+		}
+
+		.information {
+			width: 100%;
+			margin-left: 0;
+		}
+
+		.description {
+			text-indent: 0px;
+		}
+
+		#ue-prototypes {
+			margin-top: 60px;
+		}
+
+		#ue-prototypes h1 {
+			margin-bottom: 20px;
+		}
+
+		#ue-prototypes iframe {
+			width: 100%;
+			max-width: 560px;
+			height: auto;
+			aspect-ratio: 16 / 9;
+		}
+
+		#ue-prototypes .project-container-right,
+		#ue-prototypes .project-container-left {
+			margin-bottom: 50px;
+		}
+
+		#ue-prototypes .project-container-right .description {
+			float: none;
+			min-height: 0px;
+			margin-right: 0px;
+		}
+
+		#ue-prototypes .project-container-left .description {
+			margin-left: 0px;
+		}
+
+		#ue-prototypes .description {
+			display: block;
+			width: 100%;
+		}
+
+		#jam-projects {
+			margin-top: 60px;
+		}
+
+		#jam-projects .project-container {
+			margin-bottom: 50px;
+		}
 	}
 </style>

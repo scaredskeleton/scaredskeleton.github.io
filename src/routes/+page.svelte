@@ -133,4 +133,55 @@
 	.tab-space {
 		padding-left: 6%;
 	}
+
+	@media (max-width: 768px) {
+		.content {
+			width: 100%;
+			padding: 0 20px;
+			margin-bottom: 80px;
+		}
+
+		#intro {
+			width: 100%;
+			margin-top: 150px;
+			padding: 0 20px;
+		}
+
+		#intro #body {
+			display: block;
+			text-align: center;
+		}
+
+		#intro img {
+			float: none;
+			display: block;
+			margin: 40px auto 0;
+		}
+
+		.intro-text {
+			font-size: large;
+		}
+
+		.name {
+			font-size: x-large;
+		}
+
+		#about-me {
+			margin-top: 150px;
+		}
+
+		#about-me p {
+			text-indent: 0px;
+		}
+
+		#skills-content {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 30px;
+		}
+
+		.tab-space {
+			padding-left: 0px;
+		}
+	}
 </style>

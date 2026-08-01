@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -144,4 +145,42 @@ body {
 
 #socmed-links a:hover img:first-child {
 	display: none;
+}
+
+@media (max-width: 768px) {
+	#navbar {
+		flex-wrap: wrap;
+	}
+
+	#nav-links {
+		flex-basis: 100%;
+		text-align: center;
+	}
+
+	#nav-links ul li {
+		padding: 10px 14px;
+	}
+
+	#nav-links ul li a {
+		font-size: 16px;
+	}
+
+	#footer {
+		flex-direction: column;
+		height: auto;
+		gap: 15px;
+		padding-bottom: 20px;
+	}
+
+	#socmed-links {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		margin-left: 30px;
+		margin-right: 0;
+	}
+
+	#socmed-links a img {
+		margin-left: 10px;
+	}
 }
