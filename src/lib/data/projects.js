@@ -1,5 +1,20 @@
 export const featuredProjects = [
 	{
+		title: 'UNO™ Wild',
+		banner: '/images/uno-wild-logo.png',
+		link: 'https://play.google.com/store/apps/details?id=com.mattel.wild&hl=en',
+		year: 2026,
+		platforms: [
+			{ src: '/images/android-logo.png', title: 'Android' },
+			{ src: '/images/ios-logo.png', title: 'iOS' }
+		],
+		align: 'right',
+		description: [
+			'"UNO™ Wild is a fast-moving mobile game where every card played helps you win coins, every spin unlocks rewards, and every other player’s growing stash of coins can be taken for yours."',
+			'My main responsibility for this project was on the mini games and live events. Our work involves developing new mini games and improving exisiting ones for keeping our users engaged. As part of the team that works on the live events, I am also involved in the backend development to allow support for our features.'
+		]
+	},
+	{
 		title: 'AstroNerds',
 		banner: '/images/astronerds-logo.png',
 		link: 'https://play.google.com/store/apps/details?id=com.echelon.astronerds&hl=en',
@@ -15,6 +30,22 @@ export const featuredProjects = [
 		]
 	},
 	{
+		title: 'Perfect Shot',
+		banner: '/images/perfect-shot-banner.png',
+		link: 'https://perfectshot.io',
+		year: 2025,
+		platforms: [
+      { src: '/images/android-logo.png', title: 'Android'},
+			{ src: '/images/telegram-logo.png', title: 'Telegram' },
+			{ src: '/images/warpcast-logo.png', title: 'Warpcast' }
+		],
+		align: 'right',
+		description: [
+			'"A space-themed, roguelike arcade shooter where players control a ship navigating through procedurally generated space environments."',
+			'For this project I handled most of the core systems and a couple of gameplay mechanics like ship control and weapon designs, focused on crafting an engaging and responsive gameplay experience. Created the UI and some other art assets to augement our art production. Additionally, I designed and implemented the entire backend using Flask for our user data management, authentication and leaderboard. I also integrated crypto wallet support for some of our platforms to allow the game to accept ETH and USDC payments.'
+		]
+	},
+	{
 		title: 'Midnight Anomalies',
 		banner: '/images/midnight-anomalies-banner.png',
 		link: 'https://clem-nightmare.web.app',
@@ -24,21 +55,6 @@ export const featuredProjects = [
 		description: [
 			"Midnight Anomalies is an immersive, real-time PvP card game set in the eerie universe of Clementine's Nightmare. Step into the shoes of a Nightmare's chosen and harness their unique deck of powerful, otherworldly cards to battle against players from around the globe. Each Nightmare boasts its own distinct abilities and signature card collections, allowing for strategic depth and dynamic gameplay. Outsmart, outplay, and dominate your opponents in intense matches where every decision can alter the course of fate.",
 			'I was assigned as the multiplayer engineer in this project. I had built all of the netcode and networking infrastructure needed to make sure the multiplayer, matchmaking and game servers work using Unity Gaming Services.'
-		]
-	},
-	{
-		title: 'Perfect Shot',
-		banner: '/images/perfect-shot-banner.png',
-		link: 'https://perfectshot.io',
-		year: 2025,
-		platforms: [
-			{ src: '/images/telegram-logo.png', title: 'Telegram' },
-			{ src: '/images/warpcast-logo.png', title: 'Warpcast' }
-		],
-		align: 'right',
-		description: [
-			'"A space-themed, roguelike arcade shooter where players control a ship navigating through procedurally generated space environments."',
-			'For this project I handled most of the core systems and a couple of gameplay mechanics like ship control and weapon designs, focused on crafting an engaging and responsive gameplay experience. Created the UI and some other art assets to augement our art production. Additionally, I designed and implemented the entire backend using Flask for our user data management, authentication and leaderboard. I also integrated crypto wallet support for some of our platforms to allow the game to accept ETH and USDC payments.'
 		]
 	},
 	{
